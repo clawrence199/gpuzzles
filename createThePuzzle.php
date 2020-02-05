@@ -64,7 +64,7 @@ include_once 'db_configuration.php';
                 && move_uploaded_file($_FILES["fileToUpload2"]["tmp_name"], $target_solution_file)) {
                 //big stuff for ass 3 !!!!
                 $sql = "INSERT INTO gpuzzles(puzzle_name,creator_name,author_name,book_name,puzzle_image,solution_image,notes)
-                VALUES ('$puzzle_name','$creator_name','$author_name','$book_name','$target_puzzle_file','$target_solution_file','$notes')
+                VALUES ('$puzzle_name','$creator_name','$author_name','$book_name','$puzzle_image','$solution_image','$notes')
                 ";
 
                 mysqli_query($db, $sql);
