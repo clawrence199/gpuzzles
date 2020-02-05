@@ -30,9 +30,9 @@ if(!isset($page_title)) { $page_title = 'Gpuzzles'; }
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <a href="index.php" title="SILC Quiz Master"><img id="silc" src="Images/index_images/silc_home.jpg"></a> 
+            <a href="index.php" title="SILC Quiz Master"><img id="silc" src="Images/index_images/home_page.png"></a> 
             
-            <!-- Login / Logout Nav menu item
+            <!-- Login / Logout Nav menu item 
                Checks if there is a valid session and if so displays "logout"
                If there isn's a valid session display login. -->
 
