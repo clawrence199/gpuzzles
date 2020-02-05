@@ -2,6 +2,7 @@
 require 'bin/functions.php';
 require 'db_configuration.php';
 include('header.php'); 
+include("modifyThePreferences.php")
 
 ?>
 
@@ -108,7 +109,7 @@ include('header.php');
         echo "
         <td>
             <a href = 'display_puzzle.php?puzzle=$puzzle' title = $puzzle>
-                <image class = 'image' src = Images/puzzle_images/$pic></image>
+                <image class = 'image' src = 'Images/puzzle_images/$pic'></image>
                 <div id = 'title'>$puzzle</div>
             </a>
         </td>";
